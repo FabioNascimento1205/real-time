@@ -1,0 +1,85 @@
+/* Resetando as configurações padrões */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "DigitalDisco";
+    src: url(../fontes/DigitalDisco.woff);
+}
+
+body {
+    font-family: 'DigitalDisco';
+    font-size: 16px;
+    background: #5017ed url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 140px;
+    box-shadow: 2px 5px 10px black;
+}
+
+#saudacao {
+    color: #fff;
+    padding: 20px;
+    font-size: 1.8em;
+}
+
+#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#relogio div {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.822);
+}
+
+#relogio span {
+    font-size: 1.9em;
+}
+
+#relogio span.tempo {
+    font-size: 0.8em;
+}
+
+#foto {
+    padding: 20px;
+}
+
+#foto img {
+    box-shadow: 3px 3px 10px black;
+}
+
+
+#rodape {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-style: italic;
+}
