@@ -1,0 +1,24 @@
+/* Resetando as configurações padrões */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "DigitalDisco";
+    src: url(../fontes/DigitalDisco.woff);
+}
+
+body {
+    font-family: 'DigitalDisco';
+    font-size: 1em;
+    background: #5017ed url(../img/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

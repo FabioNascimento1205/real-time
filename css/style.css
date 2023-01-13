@@ -1,33 +1,16 @@
-/* Resetando as configurações padrões */
+@charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "DigitalDisco";
-    src: url(../fontes/DigitalDisco.woff);
-}
-
-body {
-    font-family: 'DigitalDisco';
-    font-size: 16px;
-    background: #5017ed url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+/* Versão Mobile First */
 
 #container {
-    width: 500px;
+    width: 85vw;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.233);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     text-align: center;
     border-radius: 15px;
-    margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 30vh;
     box-shadow: 2px 5px 10px black;
 }
 
@@ -41,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 80px;
+    height: 13vh;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
@@ -57,7 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: rgba(5, 5, 5, 0.822);
+    background: rgba(5, 5, 5, 0.637);
 }
 
 #relogio span {
@@ -74,10 +57,10 @@ body {
 
 #foto img {
     box-shadow: 3px 3px 10px black;
+    width: 70vw;
 }
 
-
-#rodape {
+footer {
     text-align: center;
     margin-top: 20px;
     color: #fff;
